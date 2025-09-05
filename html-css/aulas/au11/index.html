@@ -14,5 +14,19 @@
         <source media="(max-width: 1050px)" srcset="imgs/imagem-m.png" type="image/png">
         <img src="imgs/imagem-g.png" alt="Imagem grande">
     </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <h2>Maneira 1</h2>
+    <audio src="midia/Xylophone Tip Toe Scale Up.mp3" controls></audio>
+
+    <h2>Maneira 2</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Xylophone Tip Toe Scale Up.mp3" type="audio/mpeg">
+        <source src="midia/Xylophone Tip Toe Scale Up.ogg" type="audio/ogg">
+        <source src="midia/Xylophone Tip Toe Scale Up.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Xylophone Tip Toe Scale Up.mp3" download>Clique aqui para baixar o arquivo.</a>
+        </p>
+    </audio>
 </body>
 </html>

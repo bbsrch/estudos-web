@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1>
+    <p>Esses vídeos estão hospedados no meu próprio servidor</p>
+    
+    <h2>Primeiro método</h2>
+    <video src="midia/chuva-planta.mp4" width="200" loop controls></video>
+
+    <h2>Segundo método</h2>
+    <video width="400" controls poster="midia/tt-marinha-legalzona.jpg">
+        <source src="midia/tartaruga-marinha-mkv.mkv" type="video/mkv">
+        <source src="midia/tartaruga-marinha-mp4.mp4" type="video/mp4">
+        <source src="midia/tartaruga-marinha-webm.webm" type="video/webm">
+        <source src="midia/tartaruga-marinha-ogv.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+    </video>
+
+    <h1>Vídeos do YouTube</h1>
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/itiL0WGht1w?si=JP7WhsWWebkXdGPh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Vídeos do Vimeo</h1>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/861823257?h=5c05b3e28a" width="400" height="250" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
+</body>
+</html>
